@@ -267,6 +267,13 @@ a {
   color: var(--gold);
 }
 
+.service-note {
+  max-width: 820px;
+  margin: 20px auto 0;
+  padding-left: 16px;
+  color: var(--text-light);
+}
+
 /* ===== Contact ===== */
 .contact__text {
   text-align: center;
