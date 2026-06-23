@@ -17,6 +17,14 @@ nav.querySelectorAll("a").forEach((link) => {
   });
 });
 
+// ロゴクリックでページ最上部へスクロール
+const logo = document.getElementById("logo");
+
+logo.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
 // ページトップボタンの表示制御
 const pagetop = document.getElementById("pagetop");
 
