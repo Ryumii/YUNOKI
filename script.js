@@ -17,12 +17,12 @@ nav.querySelectorAll("a").forEach((link) => {
   });
 });
 
-// ロゴクリックでページ最上部へスクロール
-const logo = document.getElementById("logo");
-
-logo.addEventListener("click", (e) => {
-  e.preventDefault();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+// ロゴ・HOMEリンク等クリックでページ最上部へスクロール
+document.querySelectorAll('a[href="#home"]').forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 });
 
 // ページトップボタンの表示制御
