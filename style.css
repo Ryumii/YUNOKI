@@ -64,9 +64,9 @@ a {
 
 .logo {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 0.08em;
-  color: #fff;
+  color: var(--gold);
 }
 
 .nav__list {
